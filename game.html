@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./game.css" />
+    <script defer src="./game.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="title_contanier">
+        <div class="title">
+          <p>GAME ZONE</p>
+          <p>today choice</p>
+        </div>
+        <div class="divided"></div>
+      </div>
+      <div class="content_contanier">
+        <div class="content">
+          <div class="content_text">
+            <span>🚃🚞🚃</span>
+            <p>끝말잇기</p>
+            <p>제시어 : <span class="changeword">슭곰발</span></p>
+          </div>
+          <div class="content_one game">
+            <form action="http:localhost:5503" method="get">
+              <input
+                type="text"
+                name="word"
+                id="word"
+                placeholder="단어를 입력하세요"
+              />
+              <input type="submit" value="입력" />
+            </form>
+            <div class="result">두근두근~</div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content_text">
+            <span>💝</span>
+            <p>LOTTO</p>
+          </div>
+          <div class="content_two game">
+            <div class="two_result">1,2,3,4,5,6</div>
+            <button>클릭</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

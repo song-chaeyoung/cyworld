@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./guestbook.css" />
+    <script defer src="./guestboox.js"></script>
+  </head>
+  <body>
+    <div class="userinput">
+      <form action="http://localhost:5503">
+        <label for="usertext">Friends say</label>
+        <input
+          type="text"
+          name="usertext"
+          id="usertext"
+          placeholder="일촌과 나누고 싶은 이야기를 남겨보세요~!"
+        />
+        <input type="submit" value="확인" />
+      </form>
+    </div>
+    <div class="guestdata"></div>
+  </body>
+</html>
